@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style-type: none;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            overflow: hidden;
+        }
+
+        .header-section {
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+            padding: 18px 12px;
+            background-color: black;
+
+        }
+
+        .navigation-bar ul li {
+            display: inline-block;
+            text-transform: capitalize;
+            margin-left: 35px;
+
+
+        }
+
+        .navigation-bar ul li a {
+            color: white;
+        }
+
+        .navigation-bar ul li a:hover {
+            color: deepskyblue;
+            transition: .2 linear ease;
+        }
+
+
+        .logo {
+            font-size: 30px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        .logo a {
+            color: #fff;
+        }
+
+
+
+        .subscribe-button {
+            color: white;
+            border: none;
+            background: deepskyblue;
+            padding: 10px 20px;
+            border-radius: 9px;
+            cursor: pointer;
+            text-transform: capitalize;
+            font-weight: bold;
+
+
+        }
+
+        #home img {
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+            filter: grayscale(100%);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header-section">
+
+        <div class="logo">
+            <a href="#">navbar</a>
+        </div>
+
+        <nav class="navigation-bar">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+
+        <button class="subscribe-button">get started
+        </button>
+    </header>
+
+    <section id="home">
+        <img src="horses.jpg">
+    </section>
+
+</body>
+
+</html>
